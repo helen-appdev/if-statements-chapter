@@ -15,5 +15,6 @@ if move == "rock"
     p "You won!"
 elsif move=="scissors"
   p "You tied!"
-else "You lost!"
+elsif move=="paper"
+  p "You lost!"
 end
